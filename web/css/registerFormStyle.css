@@ -1,0 +1,104 @@
+/* 
+    Document   : loginform
+    Created on : Aug 5, 2013, 5:48:59 PM
+    Author     : Anurag
+    Description:
+        To give a look to the login form on login.jsp.
+*/
+
+label{
+    font-family:Verdana, Geneva, sans-serif;
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+legend{
+    font-size: large;
+    color: #E2A272;
+}
+
+#rform{
+    margin:0 auto;
+    width:459px;
+}
+input.rinput:focus{
+    border:1px solid #97d6eb;
+}
+input.rinput:hover{
+    opacity:0.8;
+}
+
+input.rinput{
+    width:420px;
+    height:20px;
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:1.2em;
+    color:#3a3a3a;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+
+#submit,#reset{
+    width:200px;
+    height:30px;
+    background-color:#00dabb;
+    border:none;
+    margin-top:20px;
+    /*cursor:pointer;*/
+    padding: 3px;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:15px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+
+#submit:hover,#reset:hover{
+    opacity:0.8;
+    background-color:#008400;
+    color: yellow;
+}
+
+select#rselect{
+    margin-bottom: 4px; 
+    width: 435px;
+    height: 28px;
+    border:1px solid #dedede;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    vertical-align: middle;
+    background-color: #efefef;
+    color:#3a3a3a;
+}
+
+input.rbutton{
+    width:200px;
+    height:30px;
+    background-color:#00dabb;
+    border:none;
+    margin-top:20px;
+    /*cursor:pointer;*/
+    padding: 3px;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:15px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+input.rbutton:hover{
+    opacity:0.8;
+    background-color:#008400;
+    color: yellow;
+}
+span#required{
+    color: red;
+    baseline-shift: super;
+}
+span.errormsg{
+    color: red;
+}

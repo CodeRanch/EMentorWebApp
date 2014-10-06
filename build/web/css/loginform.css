@@ -1,0 +1,57 @@
+/* 
+    Document   : loginform
+    Created on : Aug 5, 2013, 5:48:59 PM
+    Author     : Anurag
+    Description:
+        To give a look to the login form on login.jsp.
+*/
+
+label{
+    font-family:Verdana, Geneva, sans-serif;
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+form{
+    margin:0 auto;
+    width:459px;
+}
+input:focus{
+    border:1px solid #97d6eb;
+}
+input:hover{
+    opacity:0.8;
+}
+
+input{
+    width:420px;
+    height:25px;
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:1.8em;
+    color:#3a3a3a;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+
+#submit,#reset{
+    width:216px;
+    height:32px;
+    background-color:#00dabb;
+    border:none;
+    margin-top:20px;
+    /*cursor:pointer;*/
+    padding: 3px;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:16px;
+}
+
+#submit:hover,#reset:hover{
+    opacity:0.8;
+    background-color:#008400;
+    color: yellow;
+}

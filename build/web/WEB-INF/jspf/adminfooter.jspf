@@ -1,0 +1,12 @@
+<%-- any content can be specified here e.g.: --%>
+<!-- footer_wrapper begins -->
+<div id="footer_wrapper">
+    <div id="footer">
+        <ul class="footer_menu">
+            <li><a href="/EMentor/admin/addcourses.jsp">Add Courses</a></li>
+            <li><a href="/EMentor/admin/payments.jsp">Payments</a></li>
+            <li class="last_menu"><a href="/EMentor/admin/batch.jsp">Batches</a></li>
+        </ul>
+        Copyright &copy; 2013 <a href="http://www.unisoftdehradun.com">Unisoft Technologies</a> | Designed by <a href="/EMentor/banerjee.jsp">Anurag Banerjee</a></div>
+</div>
+<!-- footer_wrapper ends -->
